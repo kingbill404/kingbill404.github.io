@@ -1,0 +1,23 @@
+############################
+#  kingbill404.music.github.io.gitignore  #
+############################
+# poop.bat
+# README.md
+############
+ .dev/*
+*/.dev/*
+.dev/*
+*/sandBox.*
+.sandbox/*
+*/.sandbox/*
+*/sandBox.*
+*/sandbox/
+*/.VS/*
+.VS/*
+*/.VS/*
+.VS/*
+
+############
+
+
+
