@@ -1,5 +1,4 @@
 <!doctype html>
-<html>
 <html xmlns='http://www.w3.org/1999/xhtml' lang='en-US'>
 <!-- 
     // HOME - kingBill404.github.io - Project Repository
@@ -53,6 +52,122 @@
   section h3 {
     margin-left: -200px;
   }
+@import ./assets/css/button_styles.css
+:root {
+  --hover: 3px 5px 3px #111;
+}
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%
+}
+
+body {
+  background-color:#333;
+  display: block;
+  color: #000;
+  text-shadow: 2px 3px 10px #d3d3d3;
+}
+
+article {
+  margin: 10px;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 960px;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-areas:
+  'header  header header  header'
+  'nav     nav    section section'
+  'aside   aside  section section'
+  'aside   aside  section section'
+  'main    main   main    main'
+  'main    main   main    main'
+  'main    main   main    main'
+  'footer  footer footer  footer';
+}
+#content > * {
+  background-color: rgba(20, 220, 120, 0.8); 
+  padding: 3px;
+  box-shadow: inset -3px -2px 3px rgba(20,20,20,0.6), inset 3px 2px 3px rgba(220,220,220,0.6), -3px -2px 3px rgba(220,220,220,0.6), 3px 2px 3px rgba(20,20,20,0.6);
+  border: 3px solid #111;
+}
+
+header {
+  grid-area: header; 
+}
+
+aside {
+  grid-area: aside;
+}
+main {
+  grid-area: main;
+}
+
+nav {
+  grid-area: nav;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  flex: inline-block;
+  width: 100%;
+  padding: 4px;
+}
+
+section {
+  grid-area: section;
+}
+
+footer {
+  grid-area: footer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: 900;
+  text-shadow: var(--hover);
+  text-decoration: underline;
+  color: #eee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  color: var(--headers);  
+}
+            
+h1 { font-size: 2em; }
+
+h2 { font-size: 1.5em; }
+
+h3 { font-size: 1em; }
+
+h4 { font-size: 0.8em; }
+
+h5 { font-size: 0.6em; }
+
+h6 { font-size: 0.4em; }
+
 </style>
 
 </head>
@@ -62,37 +177,40 @@
 	    
         <header>
           <h1><i class='fa fa-2x fa-envelope'></i>Home</h1>
-		  <h2>kingBill404's Project Repository</h2>
-		</header>
+	  <h2>kingBill404's Project Repository</h2>
+	</header>
 		
         <nav>
-		  <h2>Projects:</h2>
-          <ul>
+	    <h2>Projects:</h2>
+            <ul>
 	        <li><a href='./music.html'><i class='fa fa-envelope'></i>Audio Playlists</a></li> 
 	        <li><a href='./rhymes.html'><i class='fa fa-envelope'></i>Poetry Section</a></li> 
 	        <li><a href='./gallery.html'><i class='fa fa-envelope'></i>Art Gallery</a></li> 
 	        <li><a href='./dev.html'><i class='fa fa-envelope'></i>Web Dev Projects</a></li> 
 	        <li><a href='./rms4.html'><i class='fa fa-envelope'></i>Rick and Morty</a></li> 
-	      </ul>
-		</nav>
+	    </ul>
+	</nav>
 		
-		<aside>
-		  <h2>Visual Art</h2>
-		  <div class='grid'>
-            <div class='item' onClick='sayHi();'><img width='10%' src='./assets/img/pic0.jpg' /></div>
-          </div>
+	<aside>
+	    <h2>Visual Art</h2>
+	    <div class='grid'>
+                <div class='item' onClick='sayHi();'>
+		    <img width='10%' src='./assets/img/pic0.jpg' />
+		</div>
+            </div>
         </aside>
 	    
-		<main>
-		  <h2>Featured</h2>
-		</main>
+	<main>
+	    <h2>Featured</h2>
+		<button class='btn btn-style-2'>Say Hi</button>
+	</main>
 	    
-		<section>
-		  <h2>Music</h2>
-          <h3>Playlists: Two Headed Bryan</h3>
-          <h4>JanJams</h4>
-          <div class='audio-player-info'>hi</div>
-          <div class='audio-player' id='player'> [
+	<section>
+  	    <h2>Music</h2>
+            <h3>Playlists: Two Headed Bryan</h3>
+            <h4>JanJams</h4>
+            <div class='audio-player-info'>hi</div>
+            <div class='audio-player' id='player'> [
 {
   "title": "Get The Cake(Finish Your Cake Chapter 3)", "src": "./assets/audio/01-janjams/01-01-GetTheCake(FinishYourCake Chapter 3).mp3", "type": "audio/mpeg3"
 },
@@ -221,6 +339,9 @@
   <script src='./assets/vendor/jquery-bootstrap.js' type='Application/JavaScript'></script>
   <script src='./assets/vendor/bootstrap.min.js' type='Application/JavaScript'></script>
   <script src='./assets/vendor/all.min.js' type='Application/JavaScript'></script>
+  
+  <!-- ===== AudioPlayer.js ===== -->
+  <script src='./assets/js/audioPlayer.js' type='Application/JavaScript'></script>
   
   <script>
         // font-awesome
