@@ -3,142 +3,16 @@
 <meta charset='utf-8' />
 <meta http-equiv='xmlns' content='ie=edge' />
 <meta name='viewport' content='width=device-width' />
+<link rel='stylesheet' href='./assets/css/gridIndex.css' />
+
 <style>
-@import url(./assets/css/_vars.css);
-@import url(./assets/css/button_styles.css);
-:root {
-  --hover: 3px 5px 3px #111;
+/* = Test out styles here then add them to grindIndex.css = */
+.gallery-img {
+  border: 6px solid #eee;
 }
-* {
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
-
-html, body {
-  width: 100%
-  background-color: var(--clr);
-}
-
-body {
-  background-color:#333;
-  display: block;
-  color: #22e;
-  text-shadow: 2px 3px 10px #d3d3d3;
-}
-
-article {
-  margin: 10px;
-}
-
-#content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  max-width: 960px;
-  margin: 0 auto;
-  grid-gap: 10px;
-  grid-template-areas:
-  'header  header header  header'
-  'nav     nav    nav     nav'
-  'aside   aside  section section'
-  'aside   aside  section section'
-  'aside   aside  section section'
-  'main    main   main    main'
-  'main    main   main    main'
-  'main    main   main    main'
-  'footer  footer footer  footer';
-}
-#content > * {
-  background-color: rgba(20, 220, 120, 0.8); 
-  padding: 3px;
-  box-shadow: inset -3px -2px 3px rgba(20,20,20,0.6), inset 3px 2px 3px rgba(220,220,220,0.6), -3px -2px 3px rgba(220,220,220,0.6), 3px 2px 3px rgba(20,20,20,0.6);
-  border: 3px solid #111;
-}
-
-header {
-  width: 100%;
-  grid-area: header; 
-}
-
-aside {
-  grid-area: aside;
-}
-main {
-  grid-area: main;
-}
-
-nav {
-  grid-area: nav;
-  display: flex;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-nav li {
-  flex: inline-block;
-  width: 100%;
-  padding: 4px;
-}
-
-section {
-  grid-area: section;
-}
-
-footer {
-  grid-area: footer;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  font-weight: 900;
-  text-shadow: var(--hover);
-  text-decoration: underline;
-  color: #eee;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
-  text-decoration: underline;
-  font-weight: 900;
-  color: var(--headers);  
-}
-            
-h1 { font-size: 2em; }
-
-h2 { font-size: 1.5em; }
-
-h3 { font-size: 1em; }
-
-h4 { font-size: 0.8em; }
-
-h5 { font-size: 0.6em; }
-
-h6 { font-size: 0.4em; }
 
 .box {
-  margin: 10px 0 0 0;
-  width: calc(90% / 3);
-  margin-left: 10px;
-  border: var(--bdr);
-  display: inline-block;
-  border-bottom: 2px dotted #3e7;
-  text-shadow: var(--shat);
-  height: 20px;
-  background-color: transparent;
-  box-shadow: (--shab);
-}
-
-.bold {
-  font-weight: 900;
+  height: 100px;
 }
 </style>
 </head>
@@ -162,9 +36,9 @@ h6 { font-size: 0.4em; }
 		
 		<aside>
 		  <h2>Gallery</h2>
-		  <section class='box'>sec 1</section>
-		  <section class='box'>sec 2</section>
-		  <section class='box'>sec 3</section>
+		  <div class='box gallery-img'><img src='./assets/img/services.jpg' width='60px' /></div>
+		  <div class='box gallery-img'><img src='./assets/img/services.jpg' width='60px' /></div>
+		  <div class='box gallery-img'><img src='./assets/img/services.jpg' width='60px' /></div>
 		</aside>
 	    
 		<main>
