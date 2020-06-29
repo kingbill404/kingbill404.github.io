@@ -1,127 +1,102 @@
 <!doctype html>
-<html><head>
+<html>
+<!-- ========== GRID INDEX ========== -->
+<head>
 <meta charset='utf-8' />
 <meta http-equiv='xmlns' content='ie=edge' />
-<title>Homepage - Project Repository, kingBill404.github.io</title>
 <meta name='viewport' content='width=device-width' />
 <link rel='stylesheet' href='./assets/css/gridIndex.css' />
+<link rel='stylesheet' href='./assets/css/main.css' />
+<link rel='stylesheet' href='./assets/css/style.css' />
+
 
 <style>
 /* = Test out styles here then add them to grindIndex.css = */
-#content > * {
-  border: 2px solid rgba(120, 120, 120, 0.8);
-  border-bottom: 2px solid rgba(20, 20, 20, 0.8);
-  border-right: 2px solid rgba(20, 20, 20, 0.8);
-  border-left: 2px solid rgba(220, 220, 2S20, 0.8);
-}
-h1, h2, h3, h4 {
-  text-shadow: 0 0 10px #111;
-  font-outline: 2px #111;
-}
-
-li a {
-  text-shadow: 0 0 10px #111;
-  color: #e1e7ef;
-}
-
-li a:hover {
-  color: #3e3eee;
-}
-
 .gallery-img {
-  border: 6px solid #3ddd3d;
-  background: url(./assets/img/services.jpg);
+  border: 5px solid #e1e7ef;
 }
 
 .box {
   height: 100px;
+  background: url('./assets/img/services.jpg');
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
+.img {
+  width: 200px;
+  height: 200px;
 }
 
-aside {
-  margin: 0;
-}
-	
-.menu {
-   box-sizing: border-box;	
-}
-
-.title {
-   font-family: consolas;	
-}
+@media screen and (max-width:600px) {
+  body {
+    background-color: #f00;
+  }
+} 
 </style>
 </head>
 <body>
   <article>
 	  <div id='content'>
-	    <header class='header'>
-              <h1>Homepage</h1>
-              <h2>kingBill404's Project Repository</h2>
-            </header>
-	    <nav>
-                <h3>Projects:</h3>
-	        <ul>
-		    <li><a class='bold btn-style-4' href='./audio.html'><i class='fa fa-envelope'></i>Audio Playlists</a></li> 
-		    <li><a class='bold btn-style-4'  href='./rhymes.html'><i class='fa fa-envelope'></i>Poetry Section</a></li> 
-		    <li><a class='bold btn-style-4'  href='./gallery.html'><i class='fa fa-envelope'></i>Art Gallery</a></li> 
-		    <li><a class='bold btn-style-4'  href='./dev.html'><i class='fa fa-envelope'></i>Web Dev Projects</a></li> 
-		    <li><a class='bold btn-style-4'  href='./rms4.html'><i class='fa fa-envelope'></i>Rick and Morty</a></li> 
+	    <header>
+          <h1>Home</h1>
+		  <h2>kingBill404's Project Repository</h2>
+		</header>
+		<nav>
+		  <h3>Projects:</h3>
+          <ul>
+	        <li><a class='bold btn-style-4' href='./audio.html'><i class='fa fa-envelope'></i>Audio Playlists</a></li> 
+	        <li><a class='bold btn-style-4'  href='./rhymes.html'><i class='fa fa-envelope'></i>Poetry Section</a></li> 
+	        <li><a class='bold btn-style-4'  href='./gallery.html'><i class='fa fa-envelope'></i>Art Gallery</a></li> 
+	        <li><a class='bold btn-style-4'  href='./dev.html'><i class='fa fa-envelope'></i>Web Dev Projects</a></li> 
+	        <li><a class='bold btn-style-4'  href='./rms4.html'><i class='fa fa-envelope'></i>Rick and Morty</a></li> 
+	      </ul>
+		</nav>
+		
+		<aside>
+		  <h2>Gallery</h2>
+		  <div class='box gallery-img'></div>
+		  <div class='box gallery-img'></div>
+		  <div class='box gallery-img'></div>
+		</aside>
+	    
+		<main>
+		  <h2>Main</h2>
+		</main>
+	    
+		<section>
+		  <h2>section 1</h2>
+		</section>
+        
+        <div>
+          <h2>Section 2</h2>
+        </div>
+        <div>
+          <h2>Section 3</h2>
+        </div>
+        <div>
+          <h2>Section 4</h2>
+        </div>
+        <div>
+          <h2>Section 5</h2>
+        </div>
+		
+		<footer>
+		  <h2>Featured Links</h2>
+		  <nav>
+            <ul>
+	            <li><a href='https://kingbill404.github.io'><i class='fa fa-envelope'></i>kingBill404</a></li> 
+	            <li><a href='http://billions.host'><i class='fa fa-envelope'></i>Billions.host</a></li> 
+	            <li><a href='https://bigkahunasports.home.blog'><i class='fa fa-envelope'></i>Big Kahuna Sports</a></li> 
+	            <li><a href='http://portfolio.billions.host'><i class='fa fa-envelope'></i>Portfolio</a></li> 
+	            <li><a href='http://ryansmind.billions.host'><i class='fa fa-envelope'></i>Ryansmind</a></li> 
 	        </ul>
-	    </nav>
-		
-	    <aside>
-	        <h2>Dev</h2>
-		<div class='box gallery-img'></div>
-		<div class='box gallery-img'></div>
-		<div class='box gallery-img'></div>
-            </aside>
-	    
-	   <main>
- 	       <h2>Main</h2>
-	   </main>
-	    
-	   <section>
-  	       <h2>section 1</h2>
-	   </section>
-        
-           <div>
-               <h2>Music</h2>
-	       <div class='menu'>
-	           <ul><div class='title'></div>
-		       <li><i class='fa fa-user'></i> User <i href='fa fa-user'></i></a></li>
-		   </ul>
-	       </div>
-           </div>
-          
-	   <div>
-               <h2>Poetry</h2>
-           </div>
-        
-	   <div>
-               <h2>Galery</h2>
-           </div>
-        
-	   <div>
-               <h2>Videos</h2>
-           </div>
-		
-	   <footer>
-	       <h2>Featured Links</h2>
-	       <nav>
-                   <ul>
-	               <li><a href='https://kingbill404.github.io'><i class='fa fa-envelope'></i>kingBill404</a></li> 
-	               <li><a href='http://billions.host'><i class='fa fa-envelope'></i>Billions.host</a></li> 
-	               <li><a href='https://bigkahunasports.home.blog'><i class='fa fa-envelope'></i>Big Kahuna Sports</a></li> 
-	               <li><a href='http://portfolio.billions.host'><i class='fa fa-envelope'></i>Portfolio</a></li> 
-	               <li><a href='http://ryansmind.billions.host'><i class='fa fa-envelope'></i>Ryansmind</a></li> 
-	           </ul>
-	       </nav>
-           </footer>
-       </div>
-   <article>
+		  </nav>
+                <p class="copyright">&copy; &copy Bill Billions - Box52 Software LLC
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                </p>		
+        </footer>
+	</div>
+  <article>
 </body>
 </html>
