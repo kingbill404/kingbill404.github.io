@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<!-- ========== GRID INDEX ========== -->
+<!-- ========== GRID INDEX (HOmepage v3.0)========== -->
 <head>
 <meta charset='utf-8' />
 <meta http-equiv='xmlns' content='ie=edge' />
@@ -10,14 +10,16 @@
 <link rel='stylesheet' href='./assets/css/main.css' />
 
 
-<style>
+<style type='text/css'>
 /* = Test out styles here then add them to grindIndex.css = */
+
 #content > * {
   border: 2px solid rgba(120, 120, 120, 0.8);
   border-bottom: 2px solid rgba(20, 20, 20, 0.8);
   border-right: 2px solid rgba(20, 20, 20, 0.8);
   border-left: 2px solid rgba(220, 220, 2S20, 0.8);
 }
+	
 h1, h2, h3, h4 {
   text-shadow: 0 0 10px #111;
   text-outline: 2px #111;
@@ -34,6 +36,7 @@ li a:hover {
 
 .gallery-img {
   border: 6px solid #3ddd3d;
+  background-color: #313e3f;
   background: url(./assets/img/services.jpg);
 }
 
@@ -48,9 +51,13 @@ li a:hover {
 }
 
 @media screen and (max-width:600px) {
-  body {
-    background-color: #f00;
-  }
+    @import url(./assets/css/mobile.css);
+    html, body {
+        width: 100%;
+    }	
+    body {
+        background-color: #3ddd3d;
+    }
 } 
 </style>
 </head>
@@ -86,42 +93,47 @@ li a:hover {
 		<section>
 		  <h2><i class='fa fa-cog'></i>Poetry</h2>
 		  <h3>Index</h3>
+			<a href='./assets/html/rhymes/000.html'><i class='fa fa-page'></i>All Poetry (000.html)</a>
+			<a href='./assets/html/rhymes/RaanRhymes.html'><i class='fa fa-page'></i>Raan Rhymes</a>
+			<a href='./assets/html/rhymes/BillionsVerses.html'><i class='fa fa-page'></i>Billions Verses</a>
+			<a href='./assets/html/rhymes/RandomRhymes.html'><i class='fa fa-page'></i>Random rhymes</a>
+			<a href='./assets/html/rhymes/RandomerRhymes.html'><i class='fa fa-page'></i>Randomer Rhymes</a>
 		</section>
         
         <div>
-          <h2>Section 2</h2>
+          <h2>Rick and Morty S4</h2>
         </div>
         <div>
-          <h2>Section 3</h2>
+          <h2>Philosophy Vids</h2>
         </div>
         <div>
-          <h2>Section 4</h2>
+          <h2>Audio Project</h2>
         </div>
         <div>
-          <h2>Section 5</h2>
+          <h2>Rhyming Poetry</h2>
         </div>
 		
-		<footer>
+            <footer>
 		  <h2>Featured Links</h2>
-		  <nav>
-            <ul>
-	            <li><a href='https://kingbill404.github.io'><i class='fa fa-envelope'></i>kingBill404</a></li> 
-	            <li><a href='http://billions.host'><i class='fa fa-envelope'></i>Billions.host</a></li> 
-	            <li><a href='https://bigkahunasports.home.blog'><i class='fa fa-envelope'></i>Big Kahuna Sports</a></li> 
-	            <li><a href='http://portfolio.billions.host'><i class='fa fa-envelope'></i>Portfolio</a></li> 
-	            <li><a href='http://ryansmind.billions.host'><i class='fa fa-envelope'></i>Ryansmind</a></li> 
-	            <li><a href='http://store.billions.host'><i class='fa fa-envelope'></i>Store</a></li> 
-	            <li><a href='http://camgirls.billions.host'><i class='fa fa-envelope'></i>Cam Girls</a></li> 
-	        </ul>
-		  </nav>
-		        <span>
-                  <p class="copyright">&copy; &copy Bill Billions - Box52 Software LLC
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script>
-                  </p>
-                </span>				  
-        </footer>
+		    <nav>
+                      <ul>
+	                <li><a href='https://kingbill404.github.io'><i class='fa fa-envelope'></i>kingBill404</a></li> 
+	                <li><a href='http://billions.host'><i class='fa fa-envelope'></i>Billions.host</a></li> 
+	                <li><a href='https://bigkahunasports.home.blog'><i class='fa fa-envelope'></i>Big Kahuna Sports</a></li> 
+	                <li><a href='http://portfolio.billions.host'><i class='fa fa-envelope'></i>Portfolio</a></li> 
+	                <li><a href='http://ryansmind.billions.host'><i class='fa fa-envelope'></i>Ryansmind</a></li> 
+	                <li><a href='http://store.billions.host'><i class='fa fa-envelope'></i>Store</a></li> 
+	                <li><a href='http://camgirls.billions.host'><i class='fa fa-envelope'></i>Cam Girls</a></li> 
+                      </ul>
+		    </nav>
+                    <span>
+                      <p class="copyright">&copy; &copy Bill Billions - Box52 Software LLC
+                         <script>
+                           document.write(new Date().getFullYear());
+                         </script>
+                      </p>
+                   </span>				  
+             </footer>
 	</div>
   </article>
 </body>
