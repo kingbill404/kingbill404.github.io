@@ -1,0 +1,227 @@
+@import url('./_vars.css');
+@import url('./button_styles.css');
+/* =============================================================== */
+/* ========================= gridIndex.css ======================= */
+/* =============================================================== *
+
+/* ================= Reset ================= */
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* ================= Format ================= */
+
+html, body {
+  width: 100%;
+  background-color: var(--clr);
+}
+
+body {
+  padding: 20px auto;
+  margin-left: 0;
+  background-color: var(--bg);
+  display: block;
+  color: #7177ff;
+  text-shadow: var(--shat);
+}
+
+article {
+  width: 100%;
+  background: url(./assets/img/face.jpg);
+  margin: 10px auto;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  width: 100%;
+  margin: 0 auto;
+  grid-gap: 10px;
+  grid-template-areas:
+  'header  header header  header'
+  'nav     nav    nav     nav'
+  'aside   aside  section section'
+  'aside   aside  section section'
+  'aside   aside  section section'
+  'main    main   main    main'
+  'main    main   main    main'
+  'main    main   main    main'
+  'footer  footer footer  footer';
+}
+
+#content > * {
+  padding: 3px;
+  box-shadow: var(--box3);
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid rgba(120, 120, 120, 0.8);
+  border-bottom: 2px solid rgba(20, 20, 20, 0.8);
+  border-right: 2px solid rgba(20, 20, 20, 0.8);
+  border-left: 2px solid rgba(220, 220, 2S20, 0.8);
+}
+
+/* ================= Textography ================= */
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  color: var(--headers);  
+  text-shadow: 0 0 10px #111;
+  font-outline: 2px solid #111;
+}
+            
+h1 { font-size: 2em; }
+
+h2 { font-size: 1.5em; }
+
+h3 { font-size: 1em; }
+
+h4 { font-size: 0.8em; }
+
+h5 { font-size: 0.6em; }
+
+h6 { font-size: 0.4em; }
+
+/* ================= Lists & Buttons ================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li a:hover {
+  font-weight: 900;
+  text-shadow: var(--hover);
+  text-decoration: underline;
+  color: #0ef;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+nav li a {
+  text-shadow: 0 0 10px #11171f;
+  color: #e1e7ef;
+}
+
+nav li a:hover {
+  color: #3ee;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  flex: inline-block;
+  width: 100%;
+  padding: 4px;
+}
+
+/* ================= Elements ================= */
+
+.box {
+  margin: 10px 0;
+  width: calc(90% / 4);
+  height: 120px;
+  margin-left: 10px;
+  border: var(--bdr);
+  display: inline-block;
+  border-bottom: 2px dotted #3e7;
+  text-shadow: var(--shat);
+  background-color: transparent;
+  box-shadow: (--shab);
+  background: url('./assets/img/services.jpg');
+
+}
+
+.gallery-img {
+  border: 6px solid #3ddd3d;
+  background: url(./assets/img/services.jpg);
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+/* =============== Responsive ============== */
+
+@media screen and (max-width:600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    max-width:500px;
+  }
+
+  #content > * {
+	    grid-auto-rows: 100px;
+	    grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+		'header  header'
+		'nav     aside'
+		'nav     aside'
+		'main    main'
+		'main    main'
+		'main    main'
+		'section section'
+		'section section'
+		'section section'
+		'footer  footer';
+  }
+} 
+
+/* =========== Grid Template Areas ========== */
+
+header {
+  width: 100%;
+  /*background-color: rgba(20, 220, 120, 0.2);*/
+  grid-area: header; 
+  
+}
+
+aside {
+  /*background-color: rgba(120, 40, 120, 0.2);*/
+  grid-area: aside;
+}
+main {
+  /*background-color: rgba(20, 120, 220 ,0.2);*/
+  grid-area: main;
+  
+}
+
+nav {
+  background-color: rgba(120, 220, 80 , 0.1);
+  grid-area: nav;
+  display: flex;
+}
+
+section {
+  background-color: rgba(220, 120, 20, 0.6);
+  grid-area: section;
+}
+
+footer {
+  background-color: rgba(20, 220, 220, 0.6);
+  grid-area: footer;
+}
+
+article section div {
+  background-color: transparent;
+}

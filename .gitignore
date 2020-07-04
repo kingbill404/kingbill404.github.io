@@ -1,0 +1,5 @@
+#
+#  Gitignore file for kingBill404
+#
+*/.dev/*
+/.dev/*

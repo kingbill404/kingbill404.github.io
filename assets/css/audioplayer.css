@@ -1,0 +1,70 @@
+@import url(../css/_vars.css);
+@import url(../css/_fonts.css);
+@import url(../css/_format.css);
+@import url(../css/_layout.css);
+@import url(../css/_textography.css);
+@import url(../css/button_styles.css);
+
+:root {
+  --dark: #333;
+  --light:#eee;
+  --med: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark);
+  text-shadow: var(--shaglow);
+}
+
+.audio-player-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 30px;
+  top: 0px;
+}
+
+.audio-player-progressbar {
+  background-color: #313e3f;
+  width: 300px;
+  height: 30px;
+}
+
+.audio-player-progressmeter {
+  background-color: rgba(20, 220, 180, 0.8);
+  height: 30px;
+}
+
+.audio-player {
+  display: flex;
+  flex-direction: row;
+  border: 8px solid #717e7f;
+  border-radius: 10px;
+  box-shadow: var(--shadin);
+}
+
+.titleDiv {
+	background-color: #111;
+	width: 75%;
+	font-size: 20px;
+}
+
+#track-list {
+  display: flex;
+  background-color: rgba(120, 20, 220, 0.4);
+}
+
+.track-list {
+	display: inline-flex;
+}

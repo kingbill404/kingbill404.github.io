@@ -1,0 +1,167 @@
+@import url("./_vars.css");
+@import url("./main.css");
+/* =========== button_syles.css ========== */
+ 
+ .btn {
+	display: inline-block;
+    text-align: center; 
+ }
+ 
+ .btn-style-2:visited {
+            color: #e3e3e3;
+        }
+        
+        .btn-style-5:visited {
+            color: #e3e3e3;
+        }
+        
+        .btn-style-1:visited {
+            color: #e3e3e3;
+        }
+		
+        .btn-style-1 {
+            background-color: rgba(20, 20, 20, 0.3);
+            padding-right: 15px;
+            border-radius: 8px;
+            font-family: consolas;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            color: #e1e7ef;
+            border-color: rgba(120,120,120,0.8);
+            font-size: 20px;
+            padding-top: 5px;
+			border: 2px solid rgba(80, 80, 80, 1);
+			text-shadow:var(--shat);
+			box-shadow: var(--shab);
+        }
+        
+        .btn-style-2 {
+            background-color: #5cb85c;
+            display: inline-block;
+            text-align: center;
+            padding-right: 15px;
+            border-radius: 7px;
+            font-family: Times New Roman;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            color: #f107ee;
+            border-color: #111e1f;
+            font-size: 20px;
+            padding-top: 5px;
+			text-shadow:var(--shat);
+			box-shadow: var(--shab), var(--shaddio);
+        }
+        
+        .btn-style-3 {
+            background-color: #rgba(255, 255, 255, 0.1);
+            display: inline-block;
+            text-align: center;
+            padding-right: 15px;
+            border-radius: 6px;
+            font-family: Verdana;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            color: rgba(60, 88, 220, 0.6);
+            border-color: #111e1f;
+            font-size: 20px;
+            padding-top: 0;
+			font-size: 10px;
+			text-shadow: var(--shat2);
+        }
+        
+        .btn-style-4 {
+			height: 60px;
+            background-color: rgba(20, 20, 20, 0.5);
+            display: inline-block;
+            text-align: center;
+            padding-right: 15px;
+            border-radius: 5px;
+            font-family: Arial Black;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            color: #e1e7ee;
+			border: 2px solid;
+            border-color: rgba(20, 20, 20, 0.8);
+            font-size: 20px;
+            padding-top: 5px;
+        }
+        
+        .btn-style-5 {
+            background-color: rgba(20, 220, 120, 0.6);
+			border-radius: 3px 30%;
+            display: inline-block;
+            text-align: center;
+            padding-right: 15px;
+            border-radius: 4px;
+            font-family: Impact;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            color: #e1e7ef;
+            border-color: #111e1f;
+            font-size: 20px;
+            padding-top: 5px;
+        }
+        
+        .btn-style-5:hover {
+            background-color: rgba(20, 220, 80, 0.6);
+            opacity: 0.8;
+            text-decoration: none;
+        }
+        
+        .btn-style-6 {
+            background-color: #31373f;
+            display: inline-block;
+            text-align: center;
+            padding-right: 15px;
+            border-radius: 3px;
+            font-family: Georgia;
+            padding-left: 15px;
+            padding-bottom: 5px;
+            color: #e1e7ef;
+            border-color: #111e1f;
+            font-size: 20px;
+            padding-top: 5px;
+        }
+        
+        .btn-style-2:hover {
+            background-color: #5cb85c;
+            opacity: 1;
+            text-decoration: none;
+        }
+        
+        .btn-style-3:hover {
+            background-color: #5bc0de;
+            opacity: 1;
+            text-decoration: none;
+        }
+        
+        .btn-style-4:hover {
+            background-color: rgba(20, 220, 20, 1);
+            opacity: 1;
+            text-decoration: underline;
+			color: #e1e7ef;
+        }
+        
+        .btn-style-6:visited {
+            color: #e1e7ef
+        }
+        
+        .btn-style-4:visited {
+            color: #a1a7af;
+        }
+        
+        .btn-style-1:hover {
+            background-color: #337ab7;
+            opacity: 1;
+            text-decoration: none;
+        }
+        
+        .btn-style-6:hover {
+            background-color: #616161;
+            opacity: 1;
+            text-decoration: none;
+        }
+        
+        .btn-style-3:visited {
+            color: #e1e7ef;
+        }

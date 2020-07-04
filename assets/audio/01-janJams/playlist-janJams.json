@@ -1,0 +1,157 @@
+[
+{
+    "title": Birth Of The Lotus,
+	"src": ./assets/audio/01-janJams/01-01-BirthOfTheLotus.mp3, 
+	"type": "audio/mpeg3"
+},
+{
+    "title": Cloud Rider,
+	"src": ./assets/audio/01-janJams/01-01-cloudRider.mp3, 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "DreamWorld 2 (The Crazy One).mp3", 
+	"src": "./assets/audio/01-janJams/01-01-dreamworld2(TheCrazyOne).mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Get The Cake (Finish Your Cake Chapter 3).mp3", 
+	"src": "./assets/audio/01-janJams/01-01-GetTheCake(FinishYourCake Chapter 3).mp3", 
+	"type": "audio/mpeg3"
+}, 
+{
+    "title": "KillInit", 
+	"src":"./assets/audio/01-janJams/01-01-killinit(RapToThis).mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "MindMeld", 
+	"src":"./assets/audio/01-janJams/01-01-MindMeld.mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": 01-01-OOber.mp3, 
+	"src":./assets/audio/01-janJams/01-01-OOber.mp3, 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "01-01-PullYourWeight.mp3", 
+	"src":"./assets/audio/01-janJams/01-01-PullYourWeight.mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "01-01-RightwardTipping.mp3", 
+	"src":"./assets/audio/01-janJams/01-01-RightwardTipping.mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "01-01-TheRobotRace.mp3", 
+	"src":"./assets/audio/01-janJams/01-01-TheRobotRace.mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Wind-Up-Doll", 
+	"src":"./assets/audio/01-janJams/01-01-Wind-Up-Doll.mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Bumpyfeet", 
+	"src":"./assets/audio/01-janJams/01-01bumpyfeet.mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Hail To The Swamp Queen, 
+	"src":"./assets/audio/01-janJams/01-02-HailToTheSwampQueen.mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "We're Gonna Need A Bigger Boat",
+	"src":"./assets/audio/01-janJams/01-03-WereGonnaNeedABiggerBoat.mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Soft Top", 
+	"src":"./assets/audio/01-janJams/01-05-SoftTop(Raptothis).mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Cross The Bridge",
+	"src":"./assets/audio/01-janJams/01-06-CrossTheBridge.mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Simply Smashing Lad", 
+	"src":"./assets/audio/01-janJams/01-06-SimplySmashingLad(Raptothis).mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Wolf Dance", 
+	"src":"./assets/audio/01-janJams/01-06-WolfDance(Raptothis).mp3", 
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Tied Up In The Woods",
+	"src":"./assets/audio/01-janJams/01-08-TYdUpTheWoods(RapToThis).mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Walking Backward", 
+	"src":"./assets/audio/01-janJams/01-08-WalkingBackwards(RapToThis).mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Ryline", 
+	"src":"./assets/audio/01-janJams/01-09-RyLine.wav",
+	"type": "audio/wav"
+},
+{
+    "title": "Baked On Mayberry Street",
+	"src":"./assets/audio/01-janJams/01-10-BakedOnMayberryStreet.mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Billions-Verse",
+	"src":"./assets/audio/01-janJams/01-11-Billions-Verse.mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Holy Trap", 
+	"src": "./assets/audio/01-janJams/01-12-20-HolyTrap(RapToThis).mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "(Unfinshed)Cant Hear You When I Need To", 
+	"src": "./assets/audio/01-janJams/01-14-(Unfinshed)CantHearYouWhenINeedTo.mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "1982 For You",
+	"src": "./assets/audio/01-janJams/01-15-1982ForYou.mp3",
+	"type": "audio/mpeg3"
+},
+{
+    "title": "Misty City",
+	"src": "./assets/audio/01-janJams/01-16-MistyCity.wav",
+	"type": "audio/wav"
+},
+{
+    "title": "River Rocks",
+	"src": "./assets/audio/01-janJams/01-16-RiverRocks(RapTthis).mp3",
+	"type": "audio/mpeg3"
+},
+{
+        "title": "Nice To See You Loose again",
+	"src": "./assets/audio/01-janJams/01-18-NiceToSeeYou.wav", 
+	"type": "audio/wav"
+},
+{
+        "title": "Big Shoes", 
+	"src": "./assets/audio/01-janJams/01-20-BigShoes(RapToThis).mp3", 
+	"type": "audio/mpeg3"
+},
+{
+        "title": "Rybot-stumbling-backwards", 
+	"src": "./assets/audio/01-janJams/Rybot-stumbling-backwards.wav",
+	"type": "audio/wav"
+}
+]
