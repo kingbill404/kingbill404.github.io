@@ -1,0 +1,16 @@
+/*                ###  Gallery.css ###
+   Assigning the images to the correct document I.D.'s ( #g0 - #g7 ).
+*/
+
+div .gallery {
+	background-color: #fff;
+}
+
+#g0 { background: url(./assets/gallery/g0.jpg); }
+#g1 { background: url(./assets/gallery/g1.jpg); }
+#g2 { background: url(./assets/gallery/g2.jpg); }
+#g3 { background: url(./assets/gallery/g3.jpg); }
+#g4 { background: url(./assets/gallery/g4.jpg); }
+#g5 { background: url(./assets/gallery/g5.jpg); }
+#g6 { background: url(./assets/gallery/g6.jpg); }
+#g7 { background: url(./assets/gallery/g7.jpg); }
