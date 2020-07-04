@@ -68,14 +68,16 @@ article {
 
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
-  text-decoration: underline;
   font-weight: 900;
   color: var(--headers);  
   text-shadow: 0 0 10px #111;
   font-outline: 2px solid #111;
 }
             
-h1 { font-size: 2em; }
+h1 { 
+  font-size: 2em; 
+  text-decoration: underline;
+}
 
 h2 { font-size: 1.5em; }
 

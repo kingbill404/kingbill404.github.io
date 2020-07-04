@@ -1,5 +1,9 @@
+#####################################
+#  Gitignore file for kingBill404   #
+#####################################
+# any files or pages still In Development are added to the .dev directory.
 #
-#  Gitignore file for kingBill404
-#
+
+.dev
 */.dev/*
-/.dev/*
+

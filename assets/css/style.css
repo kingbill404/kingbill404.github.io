@@ -21,23 +21,41 @@
 
 
 /*--------------------------------------------------------------
+# Override Variables
+*--------------------------------------------------------------*/
+:root {
+  --bg: #3f323a;
+  --text: #7cc576;
+  --link: #1eaae1;
+  --hover: #9ed49a;
+  --logo-color: #eee;
+  --nav-menu-color-hover: rgba(20,20, 20,0.6);
+  --back-to-top-button: #7cc576;
+  --back-to-top-hover-text: #eee;
+  --back-to-top-button-text: #eee;
+  --back-to-top-hover-background: #61b959;
+  --header-family: "Montserrat", sans-serif;
+} 
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
+  background: var(--bg);  
   font-family: "Open Sans", sans-serif;
+  color: var(--text);
 }
 
 a {
-  color: #7cc576;
+  color: var(--link);
 }
 
 a:hover {
-  color: #9ed49a;
+  color: var(--hover);
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--header-family);
 }
 
 /*--------------------------------------------------------------
@@ -59,14 +77,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #7cc576;
-  color: #eee;
+  background: var(--back-to-top-button);
+  color: var(--back-to-top-button-text);
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #61b959;
-  color: #eee;
+  background: var(--back-to-top-hover-background);
+  color: var(--back-to-top-hover-text);
 }
 
 /*--------------------------------------------------------------
@@ -88,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   background: var(--bluetransparent);
   box-shadow: var(--shaadio);
-/*  box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);*/
+  box-shadow: inset 0 4px 10px rgba(191, 191, 191, 1);
 }
 
 #header .logo h1 {
@@ -101,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #eee;
+  color: var(--logo-color);
   text-decoration: none;
 }
 
@@ -160,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #F00;
+  color: var(--nav-menu-color-hover);
   text-decoration: none;
 }
 
