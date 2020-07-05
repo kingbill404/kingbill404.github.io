@@ -7,3 +7,6 @@
 .dev
 */.dev/*
 
+*/audio/*
+./assets/audio
+audio
