@@ -1,7 +1,7 @@
-// Daniel Shiffman
-// http://codingtra.in
-// http://patreon.com/codingtrain
+// Quetzi The Flying Serpent
+// http://billions.host
 // Code for: https://youtu.be/AaGK-fj-BAM
+// https://kingbill404.github.com/portfolio.html
 
 function Snake() {
     this.x = 0;

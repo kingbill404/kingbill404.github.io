@@ -30,53 +30,10 @@ SOFTWARE.
 
 <title>Audio</title>
 <link rel='stylesheet' href='../css/gridIndex.css' />
+<link rel='stylesheet' href='../css/audioplayer.css' />
+<!--link rel='stylesheet' href='../vendor/.css' /-->
+<!--link rel='stylesheet' href='../css/main.css' /-->
 
-<style>
-/* = Test out styles here then add them to grindIndex.css = */
-#content > * {
-  border: 2px solid rgba(120, 120, 120, 0.8);
-  border-bottom: 2px solid rgba(20, 20, 20, 0.8);
-  border-right: 2px solid rgba(20, 20, 20, 0.8);
-  border-left: 2px solid rgba(220, 220, 2S20, 0.8);
-}
-h1, h2, h3, h4 {
-  text-shadow: 0 0 10px #111;
-  font-outline: 2px #111;
-}
-
-li a {
-  text-shadow: 0 0 10px #111;
-  color: #eee;
-}
-
-li a:hover {
-  color: #3e3eee;
-}
-
-.gallery-img {
-  border: 6px solid #3ddd3d;
-  background: url(./assets/img/services.jpg);
-}
-
-.box {
-  height: 100px;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-aside {
-  margin: 0;
-}
-
-
-
-.menu {}
-
-.title {}
-</style>
 </head>
 <body>
   <article>
@@ -88,23 +45,58 @@ aside {
 		<nav>
 		  <h3>Projects:</h3>
           <ul>
-	        <li><a class='bold btn-style-4' href='./audio.html'><i class='fa fa-envelope'></i>Audio Playlists</a></li> 
-	        <li><a class='bold btn-style-4'  href='./rhymes.html'><i class='fa fa-envelope'></i>Poetry Section</a></li> 
-	        <li><a class='bold btn-style-4'  href='./gallery.html'><i class='fa fa-envelope'></i>Art Gallery</a></li> 
-	        <li><a class='bold btn-style-4'  href='./dev.html'><i class='fa fa-envelope'></i>Web Dev Projects</a></li> 
-	        <li><a class='bold btn-style-4'  href='./rms4.html'><i class='fa fa-envelope'></i>Rick and Morty</a></li> 
+	        <li><a class='bold btn-style-3' href='../../index.html'><i class='fa fa-home'></i>Home</a></li> 
+	        <li><a class='bold btn-style-3' href='./rhymes.html'><i class='fa fa-envelope'></i>Poetry Section</a></li> 
+	        <li><a class='bold btn-style-3' href='./dev.html'><i class='fa fa-envelope'></i>Web Dev Projects</a></li> 
+	        <li><a class='bold btn-style-3' href='./gallery.html'><i class='fa fa-envelope'></i>Art Gallery</a></li> 
+	        <li><a class='bold btn-style-3' href='./rms4.html'><i class='fa fa-envelope'></i>Rick and Morty</a></li> 
 	      </ul>
 		</nav>
 		
 		<aside>
-		  <h2>Dev</h2>
-		  <div class='box gallery-img'></div>
-		  <div class='box gallery-img'></div>
-		  <div class='box gallery-img'></div>
+		  <h2>Two Headed Bryan</h2>
+		  <div class='player'><h3 class='header'>Jan Jams</h3>
+		    <div class='audio-player'>[
+			    {
+				    "title": "Bumpy Feet", "src": "../audio/01-janJams/01-01-BumpyFeet.mp3", "type": "audio/mpeg3"
+				},
+				{
+				    "title": "Cloud Rider", "src": "../audio/01-janJams/01-01-CloudRider.mp3", "type": "audio/mpeg3"
+				},
+				{
+				    "title": "Get The Cake(Finish Your Cake Chapter 3)", "src": "../audio/01-janJams/01-01-GetTheCake(FinishYourCake Chapter 3).mp3", "type": "audio/mpeg3"
+				},
+				{
+				    "title": "killInit(Rap To This)", "src": "../audio/01-janJams/01-01-killInit(RapToThis).mp3", "type": "audio/mpeg3"
+				},
+				{
+				    "title": "killInit(Rap To This)", "src": "../audio/01-janJams/01-01-MindMeld.mp3", "type": "audio/mpeg3"
+				}
+			
+			]</div>
+		  </div>
+		  <div class='box'></div>
+		  <div class='box'></div>
 		</aside>
 	    
 		<main>
 		  <h2>Main</h2>
+		  <table>
+		    <thead>
+		      <tr>
+			    <td>Playlists</td>
+			    <td>Song lists</td>
+			    <td>Discription</td>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+			    <td>janjams</td>
+			    <td>1. Bumpy Feet</td>
+			    <td>JanJams</td>
+			  </tr>
+			</tbody>
+		  </table>
 		</main>
 	    
 		<section>
@@ -132,17 +124,21 @@ aside {
 		<footer>
 		  <h2>Featured Links</h2>
 		  <nav>
-          <ul>
-	        <li><a href='https://kingbill404.github.io'><i class='fa fa-envelope'></i>kingBill404</a></li> 
-	        <li><a href='http://billions.host'><i class='fa fa-envelope'></i>Billions.host</a></li> 
-	        <li><a href='https://bigkahunasports.home.blog'><i class='fa fa-envelope'></i>Big Kahuna Sports</a></li> 
-	        <li><a href='http://portfolio.billions.host'><i class='fa fa-envelope'></i>Portfolio</a></li> 
-	        <li><a href='http://ryansmind.billions.host'><i class='fa fa-envelope'></i>Ryansmind</a></li> 
-	      </ul>
-		</nav>
+            <ul>
+	          <li><a href='https://kingbill404.github.io'><i class='fa fa-envelope'></i>kingBill404</a></li> 
+	          <li><a href='http://billions.host'><i class='fa fa-envelope'></i>Billions.host</a></li> 
+	          <li><a href='https://bigkahunasports.home.blog'><i class='fa fa-envelope'></i>Big Kahuna Sports</a></li> 
+	          <li><a href='http://portfolio.billions.host'><i class='fa fa-envelope'></i>Portfolio</a></li> 
+	          <li><a href='http://ryansmind.billions.host'><i class='fa fa-envelope'></i>Ryansmind</a></li> 
+	        </ul>
+		  </nav>
 		
         </footer>
 	</div>
-  <article>
+  </article>
+  
+  <script type='application/javascript' src='../js/audioplayer.js'></script>
+  <script type='application/javascript' src='../vendor/fa.all.js'></script>
+
 </body>
 </html>

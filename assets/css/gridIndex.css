@@ -30,7 +30,6 @@ body {
 
 article {
   width: 100%;
-  background: url(./assets/img/face.jpg);
   margin: 10px auto;
 }
 
@@ -117,7 +116,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #3ee;
+  color: #eee;
 }
 
 nav ul {
@@ -145,7 +144,7 @@ nav li {
   text-shadow: var(--shat);
   background-color: transparent;
   box-shadow: (--shab);
-  background: url('./assets/img/services.jpg');
+  /*background: url('../img/services.jpg');*/
 
 }
 
@@ -161,7 +160,7 @@ nav li {
 
 /* =============== Responsive ============== */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
   * {
     margin: 0;
     padding: 0;
@@ -186,7 +185,9 @@ nav li {
 		'section section'
 		'section section'
 		'footer  footer';
+
   }
+
 } 
 
 /* =========== Grid Template Areas ========== */
