@@ -1,1 +1,1 @@
-Thumb size: 200px x 200px
+Thumb size: 140px x 140px
