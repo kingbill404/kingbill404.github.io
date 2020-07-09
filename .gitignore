@@ -4,5 +4,6 @@
 # any files or pages still In Development are added to the .dev directory.
 #
 
-.dev
-*/.dev/*
+*/.dev
+./assets/.dev/*
+*/.dev
