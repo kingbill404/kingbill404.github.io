@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- ###  Modal Example ### -->
+<html lang="en">
+    <head>
+     
+        <meta charset="utf-8" />
+        <title>Modal Rhymes</title>
+        <link rel='stylesheet' href='../css/modal.css' />
+        <style>body { background: #3f323a; color: #1eaae1; }</style>   
+    </head>
+    <body>
+    
+        <div id='bg'></div>
+        
+        <div class='wrapper'>
+            <article>
+                <h1>Modal Rhymes</h1>
+          
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn">Raan Rhymes</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                    
+					    <span class="close">&times;</span>
+						<p>Go <a class='paralink' href='../index2.html'>Home</a></p>
+						<p>Go <a class='paralink' href='./index2.html'>Rhymes2</a></p>
+						<p id='myBtn'>Check This Out...</p>
+						<div class='contents'>
+							<h3>06-25 rhymes</h3>
+							<p>Is it getting crazy in here or is it just us? </p>
+							<p>noone came open your ears, I'll do it some Justice. </p>
+							<p>wandering, heaven is where you drink yourself into a parked bus.</p>
+							<p>Irreverent feverish sheeple up at the market, </p>
+							<p>More like if the circus got mixed up with imposters,</p>
+							<p>another cold body-ass-kid up laying on the pavement.</p>
+							<p>My only wish is to see the look on your face when you realize you'll never make it. </p>
+							<p>Truth, illusions or fantasy, Ive made my mind up, </p>
+							<p>the plan came to fruition, you retiring bankrupt. </p>
+							<p>Meanwhile the exiled scratching at the draw-bridge. </p>
+							<p>my food for thought sees you as cannon fodder, targeted,</p>
+							<p>The artist harvesting an aweful lot of bodies today as garnshments. </p>
+							<p>nine miles walking it took me two steps, you still back at the finishline hopelessly clueless.</p>
+						</div>
+			        </div><!-- End modal-content -->
+				</div>
+
+            </article>
+
+        </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+      <script src='../js/app.js' type='Application/JavaScript'></script>
+    </body>
+</html>
