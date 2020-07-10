@@ -1,0 +1,33 @@
+# JanJams 2020 Two Headed Bryan, Copyright (c) Box52 Media llc. 
+01-01-GetTheCake(FinishYourCake Chapter 3).mp3
+01-02-PullYourWeight.mp3
+01-03-CloudRider.mp3
+01-04-SoftTop(Raptothis).mp3
+01-05-OOber.mp3
+01-06-RightwardTipping.mp3
+01-07-SimplySmashingLad(Raptothis).mp3
+01-08-HailToTheSwampQueen.mp3
+01-09-TYdUpTheWoods(RapToThis).mp3
+01-10-WolfDance(Raptothis).mp3
+01-11-BakedOnMayberryStreet.mp3
+01-12-Wind-Up-Doll.mp3
+01-13-HolyTrap(RapToThis).mp3
+01-14-BumpyFeet.mp3
+01-15-CrossTheBridge.mp3
+01-16-RiverRocks(RapTthis).mp3
+01-17-MistyCity.wav
+01-18-WalkingBackwards(RapToThis).mp3
+01-19-killInit(RapToThis).mp3
+01-20-(Unfinshed)CantHearYouWhenINeedTo.mp3
+01-21-MindMeld.mp3
+01-22-BigShoes(RapToThis).mp3
+01-23-NiceToSeeYouAgain.wav
+01-24-1982ForYou.mp3
+01-25-Billions-Verse.mp3
+01-26-RyLine.wav
+01-27-WereGonnaNeedABiggerBoat.mp3
+01-28-RYbATTLElYRICS.wav
+01-29-Rybot-stumbling-backwards.wav
+11-28-19-Ryline3.wav
+playlist-janJams.json
+poop.txt
