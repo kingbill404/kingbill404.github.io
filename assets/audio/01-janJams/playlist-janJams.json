@@ -1,12 +1,12 @@
 [
 {
-    "title": Birth Of The Lotus,
-	"src": ./assets/audio/01-janJams/01-01-BirthOfTheLotus.mp3, 
+    "title": "Get The Cake(Finish Your Cake Chapter 3)",
+	"src": "./assets/audio/01-janJams/01-01-GetTheCake(FinishYourCake Chapter 3).mp3", 
 	"type": "audio/mpeg3"
 },
 {
-    "title": Cloud Rider,
-	"src": ./assets/audio/01-janJams/01-01-cloudRider.mp3, 
+    "title": "01-02-PullYourWeight.mp3",
+	"src": "./assets/audio/01-janJams/01-02-PullYourWeight.mp3", 
 	"type": "audio/mpeg3"
 },
 {
