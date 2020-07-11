@@ -1,0 +1,39 @@
+{
+  "name": "kingbill404v4.0.0",
+  "version": "4.0.0",
+  "description": "Project Repository V40.0.0 kingBill404 - Two Headed Bryan, Audio Project by Bill Billions &amp; Urban Chi Co-producers - Drawings Gallery (original artworks) - Web Development by Billions.host  ",
+  "main": "index.js",
+  "dependencies": {
+    "add": "^2.0.6",
+    "new": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingbill404/kingbill404.github.io.git"
+  },
+  "keywords": [
+    "project",
+    "repository",
+    "two",
+    "headed",
+    "bryan",
+    "king",
+    "bill",
+    "kingbill404",
+    "music",
+    "project",
+    "audio",
+    "music",
+    "philosophy"
+  ],
+  "author": "billions.host",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingbill404/kingbill404.github.io/issues"
+  },
+  "homepage": "https://github.com/kingbill404/kingbill404.github.io#readme"
+}
