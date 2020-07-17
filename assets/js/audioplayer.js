@@ -9,7 +9,7 @@ function createAudioPlayer() {
   var progressmeter;
 
   return {
-    init: init,
+    init: init
   };
 
   function play() {
@@ -100,6 +100,7 @@ function createAudioPlayer() {
 
     informationDiv = document.createElement('div');
     informationDiv.className = 'audio-player-info';
+    //document.getElementByClassName("audio-player-info").innerHTML = trackList[currentTrack].title;
 
     progressbar = document.createElement('div');
     progressbar.className = 'audio-player-progressbar';
