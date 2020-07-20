@@ -1,0 +1,46 @@
+@import url(./_fonts.css);
+@import url(./_vars.css);
+@import url(./_reset.css);
+@import url(./button_styles.css);
+@import url(./dimention-main.css);
+@import url(./main.css);
+/* 
+   ===============================
+   ========= _Format.css ========= 
+   ===============================
+*/
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 320px;
+		}
+
+	}
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	body {
+		background: var(--bg);
+	}
+
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}

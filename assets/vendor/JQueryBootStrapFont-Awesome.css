@@ -1,9 +1,20 @@
-/*
-//  JQueryBootStrapFont-Awesome.js
-//  for kingBill.github.io by Billions.host
-//  http://billions.host | bill@billions.host
+/*/
+///  JQueryBootStrapFont-Awesome.js
+///  for kingBill.github.io by Billions.host
+///  http://billions.host | bill@billions.host
 /*/
 
+/*/ 
+///  CDNs Included Here: 
+/*/
+/* jquery.min */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js);
+/* bootstrap.min */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js);
+/* three.min */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js);
+/* React3Renderer */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/react-three-renderer/3.2.4/React3Renderer.js);
 
 /*
  *  JQuery:
