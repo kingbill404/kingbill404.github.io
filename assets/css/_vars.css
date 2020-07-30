@@ -1,6 +1,4 @@
 /* _vars.css */
-
-@import url(./main.css);
 :root {
     --light: rgba(20, 220, 80, 1);
     --med: #92999f;
