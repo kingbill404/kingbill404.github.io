@@ -7,3 +7,7 @@
 */.dev
 ./assets/.dev/*
 */.dev
+
+# ignore audio
+assets/audio/*
+*/audio/*
