@@ -16,13 +16,11 @@
 
 html, body {
   width: 100%;
-  background-color: var(--clr);
 }
 
 body {
   padding: 20px auto;
   margin-left: 0;
-  background-color: var(--bg);
   display: block;
   color: #717eff;
   text-shadow: var(--shat);
