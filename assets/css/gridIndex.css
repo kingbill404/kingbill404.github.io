@@ -24,8 +24,9 @@ body {
   margin-left: 0;
   background-color: var(--bg);
   display: block;
-  color: #7177ff;
+  color: #717eff;
   text-shadow: var(--shat);
+  background-color: #313e3f;
 }
 
 article {
