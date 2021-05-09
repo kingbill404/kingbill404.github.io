@@ -1,9 +1,9 @@
 /* 
   FONTS.CSS
-  ./assets/css/Fonts.css
+  ./assets/css/_Fonts.css
  
  CONTENTS:
- Abril Fatface, abril One, Markazi Text
+ Abril Fatface, abril One, Markazi Text, Open Sans
  */        
 		
 	@font-face {
@@ -26,4 +26,10 @@
             font-weight: 400;
             src: url(https://fonts.gstatic.com/s/markazitext/v5/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtfSQf4QvAQ.ttf) format('truetype');
         }
-        
+		
+		@font-face {
+			font-family: "Open Sans";
+		    font-stretch: 50% 200%;
+			src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+				 url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+		}

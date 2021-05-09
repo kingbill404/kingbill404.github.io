@@ -38,8 +38,11 @@
 
     <!-- Local Stylesheets -->
 	<link type='text/css' rel='stylesheet' href='./assets/vendor/JQueryBootStrapFont-Awesome.css'/>
+	<link type='text/css' rel='stylesheet' href='./assets/vendor/all.min.css'/>
+    <link type='text/css' rel='stylesheet' href='./assets/css/_reset.css' />
     <link type='text/css' rel='stylesheet' href='./assets/css/_fonts.css' />
-    <link type='text/css' rel='stylesheet' href='./assets/css/style.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_vars.css' />
+    <link type='text/css' rel='stylesheet' href='./assets/css/_format.css' />
     <link type='text/css' rel='stylesheet' href='./assets/css/main.css' />
     <link type='text/css' rel='stylesheet' href='./assets/css/audioplayer.css' />
     <link type='text/css' rel='stylesheet' href='./assets/css/gridIndex.css' />
@@ -48,6 +51,7 @@
     <title>Home - Project Repository - Two Headed Bryan - kingBill404</title>
 
     <!-- ### Meta Content (Settings & info) ### -->
+	<meta name='favicon' content='' />
     <meta name='description' content='Portfolio and Project Repository for Two Headed Bryan - Urban Chi - Bill Billions' />
     <meta name='keywords' content='music kingbill404 github repository audio project twoheadedbryan two headed bryan' />
     <meta name='author' content='kingbill404.github.io' />
@@ -55,7 +59,7 @@
     <meta name='og:description' content='Welcome to Two Headed Bryan - Project Repository' />
     <meta name='og:keywords' content='music kingbill404 github repository audio project twoheadedbryan two headed bryan' />
     
-    <script src="https://kit.fontawesome.com/ad30854861.js" crossorigin="anonymous"></script>
+    <!--script src="https://kit.fontawesome.com/ad30854861.js" crossorigin="anonymous"></script-->
 
     <!-- ### Embedded Stylesheet (CSS) ### -->    
 	<style type='text/css'>
@@ -67,7 +71,12 @@
 	h1, h2, h3, h4 {
 	  text-decoration: underline;
 	}
-
+	
+	.Markazi-Text {font-family: "Markazi Text";}
+	.Abril-Fatface {font-family: "Abril Fatface";}
+	.abril-One {font-family: "abril One";}
+	.Open-Sans {font-family: "Open Sans";}
+	
     /* Grid Index #0 */
 	#g0 { background: url("./assets/gallery/aliendRAWING.jpg") 0px 0px/140px 140px; }
 	#g1 { background: url("./assets/gallery/BillDraws-Iboga.jpeg") 0px 0px/140px 140px; }
@@ -90,9 +99,9 @@
 <body>
   <article>
 	<div id='content'>
-	    <header>
+	    <header OnClick='sayHi'>
             <h1>Home ൠ (V4.0.3)</h1>
-	        <h2>kingBill404's Project Repository</h2>
+	        <h2 class='test-font'>kingBill404's Project Repository</h2>
 	    </header>
 		
 	    <nav>

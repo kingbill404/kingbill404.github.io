@@ -1,10 +1,10 @@
-@import url(../vendor/font-awesome/all.min.css);
+@import url(../vendor/all.min.css);
 @import url(../vendor/JQueryBootStrapFont-Awesome.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url(./_reset.css);
 @import url(./_vars.css);
 @import url(./_format.css);
 @import url(./_textograpy.css);
-@import url(./_reset.css);
 @import url(./_fonts.css);
 
   /*

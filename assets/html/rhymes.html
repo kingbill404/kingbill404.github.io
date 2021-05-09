@@ -5,6 +5,8 @@
 <title>Rhymes</title>
 <meta name='viewport' content='width=device-width' />
 <link rel='stylesheet' href='../css/gridIndex.css' />
+<link rel='stylesheet' href='../css/main.css' />
+<link rel='stylesheet' href='../css/modal.css' />
 
 <style>
 /* = Test out styles here then add them to grindIndex.css = */
@@ -36,10 +38,11 @@
 		</nav>
 		
 		<aside>
-		  <h2>Some Links:</h2>
-		  <div class='btn-style-3'><img src='./assets/img/services.jpg' width='60px' />hello</div>
-		  <div class='box gallery-img'><img src='./assets/img/services.jpg' width='60px' />hello</div>
-		  <div class='box gallery-img'><img src='./assets/img/services.jpg' width='60px' />hello</div>
+		  <h2>Links to more</h2>
+		  <div class='btn btn-style-1 box gallery-img'><a href='../audio/03-marJams/rhymes.txt.html'><img src='../img/bg1567x1023.jpg' width='60px' />Rhymes000</a></div>
+		  <div class='btn btn-style-1 box gallery-img'><a href='../audio/03-marJams/rhymes000.html'><img src='../img/BeatDefinition-MatiGras.png' width='60px' />Rhymes001</a></div>
+		  <div class='btn btn-style-1 box gallery-img'><a href='../audio/03-marJams/rhymes3.html'><img src='../img/bg1280x801.jpg' width='60px' />Random Rhymes</a></div>
+		  <div class='btn btn-style-1 box gallery-img'><a href='../audio/03-marJams/Rhymes.html'><img src='../img/face.jpg' width='60px' />Randomer Rhymes</a></div>
 		</aside>
 	    
 		<main>
@@ -48,7 +51,28 @@
 		</main>
 	    
 		<section>
-		  <h2>section 1</h2>
+		  <h2>Cards:</h2>
+		   <button id='myBtn'>Open Card</button>
+		   <div class='modal' id='myModal'>
+			<div class='modal-content'><span class='close'>&times;</span>
+				<h3>06-25 rhymes</h3>
+				<p>
+				Is it getting crazy in here or is it just us? <br />
+				noone came open your ears, I'll do it some Justice. <br />
+				wandering, heaven is where you drink yourself into a parked bus.<br />
+				Irreverent feverish sheeple up at the market, <br />
+				More like if the circus got mixed up with imposters,<br />
+				another cold body-ass-kid up laying on the pavement.<br />
+				My only wish is to see the look on your face when you realize you'll never make it. <br />
+				Truth, illusions or fantasy, Ive made my mind up, <br />
+				the plan came to fruition, you retiring bankrupt. <br />
+				Meanwhile the exiled scratching at the draw-bridge. <br />
+				my food for thought sees you as cannon fodder, targeted,<br />
+				The artist harvesting an aweful lot of bodies today as garnshments. <br />
+				nine miles walking it took me two steps, you still back at the finishline hopelessly clueless.<br />
+				</p>
+	        </div>
+			</div>
 		</section>
         
         <div>
@@ -119,14 +143,16 @@ strait blowing the lid off the cabinet                       <br />
 im making all matter animate and                             <br />
 im adamate about being above average at least                <br />
 															 <br />
-we taking far from calculated dosages,                       <br />
-we faded and most 'these kids couldn't cope wit this         <br />
-when i take my stash out                                     <br />
-on the weekend i take most of it                             <br />
-</p>
+            </p>
         </div>
         <div>
           <h2>Section 3</h2>
+		  <p>
+		    we taking far from calculated dosages,                       <br />
+			we faded and most 'these kids couldn't cope wit this         <br />
+			when i take my stash out                                     <br />
+			on the weekend i take most of it                             <br />
+		  </p>
         </div>
         <div>
           <h2>Section 4</h2>
@@ -151,5 +177,6 @@ on the weekend i take most of it                             <br />
         </footer>
 	</div>
   <article>
+  <script type='application/javascript' src='../js/modal.js'></script>
 </body>
 </html>

@@ -4,11 +4,11 @@
 @import url(./button_styles.css);
 @import url(./dimention-main.css);
 @import url(./main.css);
-/* 
-   ===============================
-   ========= _Format.css ========= 
-   ===============================
-*/
+/*                                  
+ *  ===============================  *
+ *  ========= _Format.css =========  *
+ *  ===============================  *
+ */
 
 	@-ms-viewport {
 		width: device-width;

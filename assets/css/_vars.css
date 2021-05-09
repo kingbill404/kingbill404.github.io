@@ -66,4 +66,7 @@
     --shat2: 0 0 10px #f1f7ff;
     --box3: inset -3px -2px 3px rgba(20,20,20,0.6), inset 3px 2px 3px rgba(220,220,220,0.6), -3px -2px 3px rgba(220,220,220,0.6), 3px 2px 3px rgba(20,20,20,0.6);
     --headers: #01f73f;
+    --audio-player-progressbar: #313e3f;
+    --audio-player-progressmeter: rgba(20, 220, 180, 0.8);
+    --titleDiv: #111;
 }

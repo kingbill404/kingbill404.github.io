@@ -1,16 +1,11 @@
-@import url(../css/_vars.css);
-@import url(../css/_fonts.css);
-@import url(../css/_format.css);
-@import url(../css/_layout.css);
-@import url(../css/_textography.css);
-@import url(../css/button_styles.css);
+@import url(./_vars.css);
+@import url(./_fonts.css);
+@import url(./_format.css);
+@import url(./_layout.css);
+@import url(./_textography.css);
+@import url(./button_styles.css);
 
-:root {
-  --dark: #333;
-  --light:#eee;
-  --med: #999;
-}
-
+/*
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +20,7 @@ html, body {
   background-color: var(--dark);
   text-shadow: var(--shaglow);
 }
+*/
 
 .audio-player-info {
   display: flex;
@@ -36,13 +32,13 @@ html, body {
 }
 
 .audio-player-progressbar {
-  background-color: #313e3f;
+  background-color: var(--audio-player-progressbar);
   width: 300px;
   height: 30px;
 }
 
 .audio-player-progressmeter {
-  background-color: rgba(20, 220, 180, 0.8);
+  background-color: var(--audio-player-progressmeter);
   height: 30px;
 }
 
@@ -55,7 +51,7 @@ html, body {
 }
 
 .titleDiv {
-	background-color: #111;
+	background-color: var(--titleDiv);
 	width: 75%;
 	font-size: 20px;
 }
