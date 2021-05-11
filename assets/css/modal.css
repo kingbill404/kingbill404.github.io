@@ -1,3 +1,10 @@
+
+@import url(../vendor/font-awesome-/all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url(./_vars.css);
+@import url(./_format.css);
+@import url(./_textograpy.css);
+@import url(./_fonts.css);
 /* modal.css */
  /* The Modal (background) */
 .modal {
@@ -15,7 +22,10 @@
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  font-weight: 700;
+  color: #e1eeef;
+  text-align: center;
+  background-color: #313e3f;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
