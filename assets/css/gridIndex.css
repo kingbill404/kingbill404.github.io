@@ -1,5 +1,5 @@
 @import url('./_vars.css');
-@import url('./_vars.css');
+@import url('./_format.css');
 @import url('./button_styles.css');
 /* =============================================================== */
 /* ========================= gridIndex.css ======================= */
@@ -143,7 +143,7 @@ nav li {
   border-bottom: 2px dotted #3e7;
   text-shadow: var(--shat);
   background-color: transparent;
-  box-shadow: (--shab);
+  box-shadow: (--sham);
   /*background: url('../img/services.jpg');*/
 
 }
