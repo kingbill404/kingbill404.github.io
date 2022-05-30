@@ -44,9 +44,9 @@ article {
   grid-template-areas:
   'header  header header  header'
   'nav     nav    nav     nav'
-  'aside   aside  section1 section2'
-  'aside   aside  section1 section2'
-  'aside   aside  section1 section2'
+  'aside   aside  section section'
+  'aside   aside  section section'
+  'aside   aside  section section'
   'main    main   main    main'
   'main    main   main    main'
   'main    main   main    main'
@@ -182,9 +182,9 @@ nav li {
 		'main    main'
 		'main    main'
 		'main    main'
-		'section section2'
-		'section section2'
-		'section section2'
+		'section section'
+		'section section'
+		'section section'
 		'footer  footer';
 
   }
@@ -218,11 +218,6 @@ nav {
 section {
   background-color: rgba(220, 120, 20, 0.6);
   grid-area: section;
-}
-
-article .section2 {
-  Background-color: rgba(20, 220, 20, 0.6);
-  grid-area: section2;
 }
 
 footer {
