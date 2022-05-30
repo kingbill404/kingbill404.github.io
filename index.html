@@ -36,7 +36,7 @@
     <noscript><link rel='stylesheet' href='./assets/css/noscript.css' /></noscript>
 
     <!-- Local Stylesheets -->
-        <link type='text/css' rel='stylesheet' href='./assets/css/audioplayer.css' />
+    
 	<link type='text/css' rel='stylesheet' href='./assets/vendor/JQueryBootStrapFont-Awesome.css'/>
 	<link type='text/css' rel='stylesheet' href='./assets/vendor/all.min.css'/>
     <link type='text/css' rel='stylesheet' href='./assets/css/_reset.css' />
@@ -88,10 +88,10 @@
 	#g6 { background: url("./assets/gallery/gallery_3.jpg") 0px 0px/140px 140px; }
 	#g7 { background: url("./assets/gallery/gallery_4.jpg") 0px 0px/140px 140px; }
 	</style> 
-    <script src='./assets/js/audioplayer.js' type='application/javascript'></script>	
+   <link type='text/css' rel='stylesheet' href='./assets/css/audioplayer.css' />
 </head>
 <body>
-  <article>
+  <!--article-->
 	<div id='content'>
 	    <header OnClick='sayHi();'>
             <h1>Home ൠ (V0.4.4)</h1>
@@ -120,13 +120,13 @@
 		    <div id='g6' class='box gallery-img gallery'></div>
 		    <div id='g7' class='box gallery-img gallery'></div>
   	    </aside>
-	    
+	    </div>
 		<main>
 		    <h2>Two Headed Bryan</h2>
 			<h3>Audio Project coming soon!</h3>
 			<section>
 			    
-					<div class='player'><h3 class='header'>Get The Cake LP</h3>
+					<div class='player-info'><h3 class='header'>Get The Cake LP</h3>
 						<div class='audio-player'>[
                                                         {
                                                                 "title": "Get The Cake (Finish Your Cake Chapter 3)", 
@@ -226,7 +226,7 @@
 ]
 				                     ]</div>
 				                  </div>
-				<div class='player'><h3 class='header'>Get The Cake LP</h3>
+				<div class='player-info'><h3 class='header'>Get The Cake LP</h3>
 					<div class='audio-player'>[
 							{
 								"title": "Big Shoes",
@@ -269,16 +269,9 @@
 		    </ul>
 		</section>
         
-        <div>
-            <h2>Get Back In The Book L.P.</h2>
-            <ol>
-                <li><a title='Track 01' onClick='audio-player.play'></a></li>
-                <li><a href='#'>a</a></li>
-                <li><a href='#'>a</a></li>
-		    </ol>
-		</div>
+      
 		  
-		  <div class='player'><h3 class='header'>Jan Jams (Disc 1) Tracks 1-13</h3>
+		  <div class='player-info'><h3 class='header'>Jan Jams (Disc 1) Tracks 1-13</h3>
 			<div class='audio-player'>[
                              { "title": "poop1", "src": "./assets/audio/01-janJams/01-01-GetTheCake(FinishYourCake Chapter 3).mp3", "type": "audio/mpeg3" },
                              { "title": "poop2", "src": "./assets/audio/01-janJams/01-02-PullYourWeight.mp3", "type": "audio/mpeg3" },
@@ -335,7 +328,7 @@
 	</div>
   </article>
 	<div class='player-info'><h3 class='header'>Get The Cake LP</h3>
-			<div class='audio-player' id='player1'>[
+			<div class='audio-player'>[
     { "title": "01-01-GetTheCake(FinishYourCake Chapter 3)", "src": "./assets/audio/01-janJams/01-01-GetTheCake(FinishYourCake Chapter 3).mp3", "type": "audio/mpeg3" },
     { "title": "01-02-PullYourWeight", "src": "./assets/audio/01-janJams/01-02-PullYourWeight.mp3", "type": "audio/mpeg3" },
     { "title": "01-03-CloudRider", "src": "./assets/audio/01-janJams/01-03-CloudRider.mp3", "type": "audio/mpeg3" },
@@ -366,7 +359,9 @@
     { "title": "01-28-RYbATTLElYRICS", "src": "./assets/audio/01-janJams/01-28-RYbATTLElYRICS.wav" "type": "audio/wav" },
     { "title": "01-29-Rybot-stumbling-backwards", "src": "./assets/audio/01-janJams/01-29-Rybot-stumbling-backwards.wav", "type": "audio/wav" },
     { "title": "01-janJams/11-28-19-Ryline3", "src": "./assets/audio/01-janJams/11-28-19-Ryline3.wav", "type": "audio/wav" } 
+
   ]</div>
+
 </div>
   <!-- ### Vendor JavaScript ### -->
   <script src='./assets/vendor/JQuery.min.js' type='application/javascript'></script>
@@ -380,7 +375,7 @@
   <script src='./assets/js/cube.js' type='application/javascript'></script>
   <script src='./assets/js/sketch.js' type='application/javascript'></script>
   <script src='./assets/js/snake.js' type='application/javascript'></script>
-  <script type='application/javascript'>
+  <script>
 	    $(function sayHi() {
 		    Let w = "Hello";
 			console.log(w);
