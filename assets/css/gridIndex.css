@@ -15,15 +15,13 @@
 
 /* ================= Format ================= */
 
-html, body {
+html, body, content {
   width: 100%;
 }
 
 body {
   height: 100vh
-  padding: 20px auto;
   margin-left: 0;
-  display: block;
   color: #717eff;
   text-shadow: var(--shat);
   background-color: #313e3f;
@@ -38,7 +36,6 @@ article {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 10% 20% 30% 30% %10;
-  width: 100%;
   margin: 0 auto;
   grid-gap: 10px;
   grid-template-areas:
@@ -110,16 +107,6 @@ li a:hover {
 ul {
   list-style: none;
 }
-
-nav li a {
-  text-shadow: 0 0 10px #11171f;
-  color: #e1e7ef;
-}
-
-nav li a:hover {
-  color: #eee;
-}
-
 nav ul {
   list-style: none;
   display: flex;
@@ -130,6 +117,14 @@ nav li {
   flex: inline-block;
   width: 100%;
   padding: 4px;
+}
+nav li a {
+  text-shadow: 0 0 10px #11171f;
+  color: #e1e7ef;
+}
+
+nav li a:hover {
+  color: #eee;
 }
 
 /* ================= Elements ================= */
@@ -169,7 +164,7 @@ nav li {
   }
   
   html, body {
-    max-width:500px;
+    max-width:100%;
   }
 
   #content > * {
