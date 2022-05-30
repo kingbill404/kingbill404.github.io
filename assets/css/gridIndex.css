@@ -212,7 +212,7 @@ main {
 nav {
   background-color: rgba(120, 220, 80 , 0.1);
   grid-area: nav;
-  display: flex;
+  /*display: flex;*/
 }
 
 section {
